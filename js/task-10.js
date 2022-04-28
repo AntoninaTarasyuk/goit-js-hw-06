@@ -6,6 +6,7 @@ const numberInput = document.querySelector('#controls').children[0];
 const createButton = document.querySelector('#controls').children[1];
 const destroyButton = document.querySelector('#controls').children[2];
 const boxes = document.querySelector('#boxes');
+
 boxes.style.display = 'flex';
 boxes.style.flexDirection = 'column';
 boxes.style.alignItems = 'center';
