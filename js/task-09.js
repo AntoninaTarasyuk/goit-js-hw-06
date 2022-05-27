@@ -7,11 +7,12 @@ const colorChangeButton = document.querySelector('button.change-color');
 
 colorChangeButton.addEventListener('click', onButtonClick);
 function onButtonClick() {
-  document.body.style.backgroundColor = getRandomHexColor();
-  color.textContent = getRandomHexColor();
+  const colorStyle = getRandomHexColor();
+  document.body.style.backgroundColor = colorStyle;
+  color.textContent = colorStyle;
 }
 
 // colorChangeButton.onclick = function() {
-//   document.body.style.backgroundColor = getRandomHexColor();
-//   color.textContent = getRandomHexColor();
+//   document.body.style.backgroundColor = colorStyle;
+//   color.textContent = colorStyle;
 // };
