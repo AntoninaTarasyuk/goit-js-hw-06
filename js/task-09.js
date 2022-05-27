@@ -11,8 +11,3 @@ function onButtonClick() {
   document.body.style.backgroundColor = colorStyle;
   color.textContent = colorStyle;
 }
-
-// colorChangeButton.onclick = function() {
-//   document.body.style.backgroundColor = colorStyle;
-//   color.textContent = colorStyle;
-// };
