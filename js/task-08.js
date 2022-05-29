@@ -9,7 +9,7 @@ function onFormSubmit(event) {
   const email = formElements.email.value;
   const password = formElements.password.value;
 
-  if (email.trim() == "" || password.trim() == "") {
+  if (email === "" || password.trim() === "") {
     alert('There is an empty or invalid value. In this case, the Minions will not be able to open your account. Please write down your email and password correctly.');
     return;
   } else {
